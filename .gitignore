@@ -1,0 +1,10 @@
+
+dist/
+build/
+.cache/
+*.packnode_modules/
+frontend/node_modules/
+frontend/.cache/
+.DS_Store
+*.log
+backend/.env

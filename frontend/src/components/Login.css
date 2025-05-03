@@ -1,0 +1,94 @@
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #fff;
+  }
+  
+  /* Login Card */
+  .login-card {
+    margin-top: 10%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Header */
+  .login-card h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Wrapper */
+  .input-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    width: 100%;
+    padding: 12px 40px 12px 40px; /* Add padding for the icon space */
+    margin: 10px 0;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Icons */
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #e74c3c;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .login-card {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .login-card h2 {
+      font-size: 1.8em;
+    }
+  
+    .submit-btn {
+      font-size: 1rem;
+    }
+  }
+  

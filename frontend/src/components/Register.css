@@ -1,0 +1,83 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding is included in the height */
+  }
+  
+  .register-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 20px; /* Adds space between columns */
+  }
+  
+  h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    grid-column: span 2; /* Makes the header span across both columns */
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #555;
+    grid-column: span 2; /* Makes the address header span across both columns */
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .register-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    grid-column: span 2; /* Makes the submit button span across both columns */
+  }
+  
+  .register-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+    grid-column: span 2; /* Makes the error message span across both columns */
+  }
+  @media (max-width: 600px) {
+    .register-card {
+      grid-template-columns: 1fr; /* Stack the fields vertically on small screens */
+    }
+  }
+  
