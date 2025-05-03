@@ -3,11 +3,13 @@
 
 A Task Management System to efficiently manage tasks, with a frontend, backend, and chatbot integration. This project is designed to provide a seamless user experience for managing tasks and interacting with a bot for task assistance.
 
+**Focus**: Authentication through JWT tokens is implemented to ensure secure user access and interactions.
+
 ## 📦 Project Structure
 
 - **`frontend/`**: The React-based frontend for user interactions.
 - **`backend/`**: Node.js backend API for managing tasks.
-- **`chatbot/`**: Chatbot backend, powered by Node.js.
+   - **`chatbot/`**: Chatbot backend, powered by Node.js.
 
 ## 🚀 Getting Started
 
@@ -83,6 +85,8 @@ Node.js
 Express
 
 Chatbot:
+
+
 Node.js
 
 Docker:
@@ -90,3 +94,5 @@ For containerization
 
 Other:
 npm for package management
+
+https://github.com/user-attachments/assets/b3565663-7823-47b2-9b44-fd37e28ecec0
